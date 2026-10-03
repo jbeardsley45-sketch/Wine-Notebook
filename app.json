@@ -1,0 +1,14 @@
+{
+  "expo":{
+    "name":"Wine Tasting Notebook",
+    "slug":"wine-tasting-notebook",
+    "scheme":"winetastingnotebook",
+    "version":"0.1.0",
+    "orientation":"default",
+    "userInterfaceStyle":"automatic",
+    "plugins":["expo-router"],
+    "ios":{"supportsTablet":true,"bundleIdentifier":"com.winetasting.notebook"},
+    "web":{"bundler":"metro","output":"single"},
+    "experiments":{"typedRoutes":true}
+  }
+}
